@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Tournament Maker</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="Tournament_list">
+        <item>"Tournament 1"</item>
+        <item>"Tournament 2"</item>
+        <item>"Tournament 3"</item>
+        <item>"Tournament 4"</item>
+        <item>"Tournament 5"</item>
+        <item>"Tournament 6"</item>
+        <item>"Tournament 7"</item>
+        <item>"Tournament 8"</item>
+        <item>"Tournament 9"</item>
+
+    </string-array>
+
+    <string-array name="Number_list">
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+        <item>"8"</item>
+        <item>"9"</item>
+        <item>"10"</item>
+
+
+    </string-array>
+
+    <string-array name="rankings">
+        <item>Team A  -  10  -  03  -  100</item>
+        <item>Team B  -  43  -  11  -  100</item>
+        <item>Team C  -  05  -  12  -  100</item>
+        <item>Team D  -  18  -  12  -  100</item>
+        <item>Team E  -  99  -  31  -  100</item>
+        <item>Team F  -  12  -  31  -  100</item>
+        <item>Team G  -  45  -  31  -  100</item>
+        <item>Team H  -  22  -  31  -  100</item>
+        <item>Team I  -  35  -  31  -  100</item>
+        <item>Team J  -  81  -  31  -  100</item>
+        <item>Team K  -  14  -  31  -  100</item>
+        <item>Team L  -  75  -  31  -  100</item>
+        <item>Team M  -  83  -  31  -  100</item>
+        <item>Team N  -  60  -  31  -  100</item>
+        <item>Team O  -  53  -  31  -  100</item>
+        <item>Team P  -  43  -  31  -  100</item>
+        <item>Team Q  -  12  -  31  -  100</item>
+        <item>Team R  -  27  -  31  -  100</item>
+        <item>Team S  -  30  -  31  -  100</item>
+        <item>Team T  -  11  -  31  -  100</item>
+        <item>Team U  -  09  -  31  -  100</item>
+
+    </string-array>
+    <string name="title_activity_new_tournament">Create Tournament</string>
+    <string name="title_activity_input_teams">Enter Teams</string>
+    <string name="title_activity_tournament_layout">Tournament Manager</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_team_ranking">Team Rankings</string>
+    <string name="title_activity_how_to_use">How To Use</string>
+    <string name="title_activity_reset_screen">ResetScreen</string>
+</resources>

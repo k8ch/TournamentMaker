@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:id="@+id/gameTemplate">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MATCH 1"
+                android:id="@+id/match"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginBottom="10dp"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_row="2"
+                android:layout_column="0">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Team B"
+                    android:id="@+id/team2"
+                    android:layout_row="2"
+                    android:layout_column="2"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="0dp"
+                    android:textSize="18dp"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- : -"
+                    android:id="@+id/score"
+                    android:layout_row="2"
+                    android:layout_column="1"
+                    android:layout_centerInParent="true"
+                    android:textSize="32dp"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Team A"
+                    android:id="@+id/team1"
+                    android:layout_row="2"
+                    android:layout_column="0"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="18dp"
+                    android:textColor="#000" />
+
+            </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ddd"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+        </LinearLayout>
+
